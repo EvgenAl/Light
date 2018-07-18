@@ -1,0 +1,174 @@
+/*=====================COMMON STYLES======================*/
+
+*{
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html, body{
+	min-width: 320px;
+	overflow-x:hidden;
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	@media only screen and (max-width : 1200px){
+		font-size: 90%;
+	}
+	@media only screen and (max-width : 992px){
+		font-size: 85%;
+	}
+
+}
+
+
+section{
+	position: relative;
+}
+
+
+ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	color: #24282f;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	&:after{
+		position: absolute;
+		content:'';
+		width: 77px;
+		height: 2px;
+		background-color: #24282f;
+		left: 50%;
+		margin-left: -38.5px;
+		bottom:0;
+	}
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+
+p{
+	margin-bottom: 0;
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.cliarfix:before,
+.cliarfix:after {
+	content: "";
+	display: table;
+}
+
+.cliarfix:after {
+	clear: both;
+}
+
+.cliarfix {
+	clear: both;
+}
+
+.img-responsive{
+	width:100%;
+	height: auto;
+}
+
+
+.hidden{
+	display: none;
+}
+
+button, 
+button:active, 
+button:focus,
+input:focus {
+	outline: none;
+	cursor:pointer;
+}
+
+
+
+.menu {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 32px;
+	padding: 0;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	z-index: 999; }
+
+	.menu__line {
+		position: absolute;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: #fff; }
+
+		.menu__line--1 {
+			top: 0;
+			-webkit-transition: all .4s;
+			-o-transition: all .4s;
+			transition: all .4s; }
+
+			.menu__line--2 {
+				top: 50%;
+				margin-top: -1px;
+				-webkit-transition: all .4s;
+				-o-transition: all .4s;
+				transition: all .4s; }
+
+				.menu__line--3 {
+					bottom: 0;
+					-webkit-transition: all .4s;
+					-o-transition: all .4s;
+					transition: all .4s; }
+
+					.menu--active .menu__line {
+						background-color: #fff;
+						-webkit-transition: all .4s;
+						-o-transition: all .4s;
+						transition: all .4s; }
+
+						.menu--active .menu__line--1 {
+							top: 50%;
+							-webkit-transform: rotate(45deg);
+							-ms-transform: rotate(45deg);
+							transform: rotate(45deg); }
+
+							.menu--active .menu__line--2 {
+								opacity: 0; }
+
+								.menu--active .menu__line--3 {
+									top: 50%;
+									-webkit-transform: rotate(-45deg);
+									-ms-transform: rotate(-45deg);
+									transform: rotate(-45deg); }

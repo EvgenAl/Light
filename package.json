@@ -1,0 +1,28 @@
+{
+  "name": "project-title",
+  "version": "1.0.0",
+  "description": "project description",
+  "author": "author",
+  "email": "author@email.com",
+  "url": "https://project.ru",
+  "devDependencies": {
+    "browser-sync": "^2.17.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-file-include": "^2.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.5",
+    "node-bourbon": "^4.2.8",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.4",
+    "jquery": "^1.11.3"
+  }
+}

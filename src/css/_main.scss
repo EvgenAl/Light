@@ -1,0 +1,130 @@
+.management{
+	background: #fff;
+	padding: 160px 30px;
+	h2{
+		margin-bottom: 35px;
+		&:after{
+			background: #b5a263;
+		}
+	}
+
+	.item{
+		.info{
+			padding: 30px 8px;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			.name{
+				color: #232323;
+				font-size: 14px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			.position{
+				color: #b5a263;
+				font-family: "Open Sans";
+				font-size: 12px;
+				font-weight: 400;
+			}
+			.socials{
+				-webkit-box-flex:1;
+				-webkit-flex-grow:1;
+				-ms-flex-positive:1;
+				flex-grow:1;
+			}
+			.social_list{
+				width: 100%;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: end;
+				-webkit-justify-content: flex-end;
+				-ms-flex-pack: end;
+				justify-content: flex-end;
+				li{
+					margin: 0 4px;
+					a{
+						display: -webkit-box;
+						display: -webkit-flex;
+						display: -ms-flexbox;
+						display: flex;
+						width: 34px;
+						height: 34px;
+						border-radius:34px;
+						background-color: #dedede;
+						.fa{
+							color:#fff;
+							font-size: 16px;
+							margin: auto;
+						}
+					}
+					&:last-child{
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+	.button_wrap{
+		text-align: center;
+		padding-top:30px;
+		.btn_show{
+			display: inline-block;
+			background: transparent;
+			padding: 12px 40px;
+			border: 1px solid #24282f;
+			border-radius: 25px;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			text-transform: uppercase;
+		} 
+	}
+}
+
+.clients_say{
+	padding: 115px 0;
+	background: #f7f7f7;
+	h2{
+		margin-bottom: 60px;
+	}
+	.slider_reviews{
+		.slide{
+			text-align: center;
+			.img_wrap{
+				margin-bottom: 30px;
+				img{
+					border-radius:100%;
+				}
+			}
+			.text{
+				margin-bottom: 40px;
+				color: black;
+				font-family: "Open Sans";
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 24px;
+				padding: 0 100px;
+			}
+			.name{
+				color: #b5a263;
+				font-family: "Open Sans";
+				font-size: 16px;
+				font-weight: 600;
+				line-height: 24px;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+			}
+			.position{
+				color: black;
+				font-family: "Open Sans";
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 24px;
+			}
+		}
+	}
+}
