@@ -120,10 +120,17 @@
 						-webkit-transition:all .6s ease-out;
 						-o-transition:all .6s ease-out;
 						transition:all .6s ease-out;
+						-webkit-box-align:center;
+						-webkit-align-items:center;
+						    -ms-flex-align:center;
+						        align-items:center;
+						-webkit-box-pack: center;
+						-webkit-justify-content: center;
+						    -ms-flex-pack: center;
+						        justify-content: center;
 						.fa{
 							color:#6e7279;
 							font-size: 16px;
-							margin: auto;
 							-webkit-transition:all .6s ease-out;
 							-o-transition:all .6s ease-out;
 							transition:all .6s ease-out;

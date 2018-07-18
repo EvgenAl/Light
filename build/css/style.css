@@ -4568,11 +4568,16 @@ input:focus {
           width: 34px;
           height: 34px;
           border-radius: 34px;
-          background-color: #dedede; }
+          background-color: #dedede;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
           .management .item .info .social_list li a .fa {
             color: #fff;
-            font-size: 16px;
-            margin: auto; }
+            font-size: 16px; }
         .management .item .info .social_list li:last-child {
           margin-right: 0; }
   .management .button_wrap {
@@ -4724,11 +4729,16 @@ input:focus {
         background-color: transparent;
         border: 1px solid #6e7279;
         -webkit-transition: all .6s ease-out;
-        transition: all .6s ease-out; }
+        transition: all .6s ease-out;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
         .footer .footer_bottom .social_block .list_social li a .fa {
           color: #6e7279;
           font-size: 16px;
-          margin: auto;
           -webkit-transition: all .6s ease-out;
           transition: all .6s ease-out; }
         .footer .footer_bottom .social_block .list_social li a:hover {
